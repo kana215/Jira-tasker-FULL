@@ -1,0 +1,21 @@
+# базовое веб-приложение
+streamlit==1.38.0
+pyngrok>=7.1.0
+
+# распознавание речи (Whisper → CTranslate2/ONNX)
+faster-whisper==1.0.3
+ctranslate2==4.5.0
+onnxruntime==1.22.1     # CPU-вариант (стабильно в Colab). Для GPU см. команды ниже.
+
+# медиа / аудио
+imageio-ffmpeg==0.5.1
+av==12.3.0
+pillow==10.4.0
+numpy>=1.26
+
+# даты/время и парсинг русских выражений сроков
+dateparser==1.2.0
+pytz
+
+# сетевые вызовы (Jira/LLaMA)
+requests>=2.32.4
