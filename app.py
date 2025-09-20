@@ -39,7 +39,7 @@ st.set_page_config(page_title="Whisper → LLaMA → Jira", page_icon="🌀", la
 LLAMA_BASE   = os.getenv("LLAMA_BASE", "https://vsjz8fv63q4oju-8000.proxy.runpod.net")
 LLAMA_URL    = os.getenv("LLAMA_URL", "")            # if set — используется напрямую
 LLAMA_MODEL  = os.getenv("LLAMA_MODEL", "")          # желаемая модель
-LLAMA_KEY    = os.getenv("LLAMA_API_KEY", "app-V8dsYkzX4pu9544X7qUPrF4J")
+LLAMA_KEY    = os.getenv("LLAMA_API_KEY", "YOUR API KEY")
 LLAMA_AUTH_HEADER  = os.getenv("LLAMA_AUTH_HEADER", "Authorization")
 LLAMA_AUTH_SCHEME  = os.getenv("LLAMA_AUTH_SCHEME", "Bearer")
 
